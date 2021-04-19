@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Creating Android Dock Using jQuery & CSS3 | Webstuffshare.com</title>
+  <meta name="description" content="Tutorial : Creating Android Dock Using jQuery & CSS3">
+  <meta name="author" content="Webstuffshare">
+  <link rel="stylesheet" href="demo.css?v=2">
+</head>
+<body>
+
+  <div id="container">
+
+    <h1>Creating Android Dock Using jQuery & CSS3</h1>
+    <em><a href="https://ssiddique.info/animated-android-dock-in-jquery-css3.html">&bull; read tutorial &bull;</a></em>
+    <span id="information" style="display:none">Your browser doesn't support CSS3 3D Transform</span>
+
+  </div>
+  <div id="dock-wrapper">
+    <div class="dock">
+      <div class="dock-front">
+    	    <img src="images/arrow-up.png" alt="Arrow Up" id="arrow-up" />
+      </div>
+      <div class="dock-top">
+    	    <img src="images/arrow-down.png" alt="Arrow Down" id="arrow-down" />
+      </div>
+    </div>
+    <div class="item">
+    	<img src="https://ssiddique.info/wp-content/uploads/2021/04/launcher-pro.png" width="60" />
+    	<img src="https://ssiddique.info/wp-content/uploads/2021/04/2do.png" width="60" />
+    	<img src="https://ssiddique.info/wp-content/uploads/2021/04/antivirus.png" width="60" />
+    	<img src="https://ssiddique.info/wp-content/uploads/2021/04/drive.png" width="60" />
+    	<img src="https://ssiddique.info/wp-content/uploads/2021/04/plex.png" width="60" />
+    	<img src="https://ssiddique.info/wp-content/uploads/2021/04/maps.png" width="60" />
+    </div>
+  </div>
+
+  <img src="images/arrow.png" alt="arrow" id="arrow" />
+
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="javascript/jquery-1.7.2.min.js"%3E%3C/script%3E'))</script>
+  <script src="javascript/demo.js"></script>
+  <script src="javascript/modernizr.custom.34807.js"></script>
+  <script> if(!Modernizr.csstransforms3d) document.getElementById('information').style.display = 'block'; </script>
+</body>
+</html>
